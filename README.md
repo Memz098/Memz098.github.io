@@ -1,19 +1,25 @@
-# memz098's website
+# hey, i'm memz098 👋
 
-Personal website hosted with **GitHub Pages** at https://memz098.github.io.
+Welcome to the repo for my little corner of the internet.
 
-## Publish this website
-1. Merge the "Set up personal website for GitHub Pages" pull request into `main`.
-2. Open **Settings → Pages** in this repository.
-3. Under **Build and deployment**, select **Deploy from a branch**.
-4. Set **Branch: main**, **Folder: /(root)**, then click **Save**.
-5. Wait a few minutes and visit https://memz098.github.io.
+**🌐 [Visit my website → memz098.github.io](https://memz098.github.io)**
 
-## Editing
-- Edit `index.html` for text, colours, project descriptions, and blog posts.
-- Upload your own `profile.png` and `favicon.png` into the repository root to use your original images.
-- Commit changes to `main` to publish automatically; for bigger changes create a feature branch and a pull request first.
+## about this site
 
-No npm, server, or build step is needed; this is a static HTML page.
+I'm into tech, coding, self-hosting, and building things just to see if I can make them work. This website is a place to share what I'm working on, write down things I've learned, and post the occasional update.
 
-> Note: The original ZIP also had a Cloudflare-style `_headers` file. GitHub Pages ignores this file, so it has been omitted.
+## what you'll find
+
+- **about me** — a little introduction and what I'm into.
+- **projects** — things I'm building, including my Media Dashboard for Plex, Jellyfin, Overseerr, Wizarr, and RomM.
+- **blog** — notes and random thoughts about tech, self-hosting, and whatever else comes up.
+
+## how it's made
+
+This is a simple static website built with **HTML and CSS** and hosted on **GitHub Pages**. No big frameworks or complicated setup.
+
+If you're curious, the website's source is in [`index.html`](./index.html).
+
+---
+
+Thanks for stopping by! :)
