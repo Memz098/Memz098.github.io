@@ -11,7 +11,6 @@ I'm into tech, coding, self-hosting, and building things just to see if I can ma
 ## what you'll find
 
 - **about me** — a little introduction and what I'm into.
-- **projects** — things I'm building, including my Media Dashboard for Plex, Jellyfin, Overseerr, Wizarr, and RomM.
 - **blog** — notes and random thoughts about tech, self-hosting, and whatever else comes up.
 
 ## how it's made
