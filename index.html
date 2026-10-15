@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#071224">
+  <meta name="description" content="memz098's corner of the internet. Tech, self-hosting, projects, and random thoughts.">
+  <title>memz098 | My Corner of the Internet</title>
+  <link rel="icon" type="image/png" href="favicon.png">
+  <link rel="apple-touch-icon" href="favicon.png">
+  <style>
+    /* Change the colours below to customise the site. */
+    :root {
+      color-scheme: dark;
+      --bg-start: #000000;
+      --bg-middle: #071224;
+      --bg-end: #0d1b36;
+      --text: #f5f8ff;
+      --muted: #d5e2f5;
+      --subtle: #b4c6df;
+      --accent: #b9dcff;
+      --border: #476080;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      min-height: 100vh;
+      background: linear-gradient(135deg, var(--bg-start) 0%, var(--bg-middle) 45%, var(--bg-end) 100%);
+      background-attachment: fixed;
+      color: var(--text);
+      font: 17px/1.8 system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    }
+    main { max-width: 700px; margin: 0 auto; padding: 72px 24px; }
+    h1, h2, h3 { line-height: 1.4; }
+    h1 { margin: 0 0 12px; font-size: 2.3rem; letter-spacing: -1px; }
+    h2 { margin: 0 0 16px; font-size: 1.25rem; }
+    h3 { margin: 0 0 6px; font-size: 1.05rem; font-weight: 600; }
+    p { margin: 0 0 16px; color: var(--muted); }
+    p:last-child { margin-bottom: 0; }
+    a { color: var(--accent); text-decoration: none; overflow-wrap: anywhere; }
+    a:hover { text-decoration: underline; }
+    a:focus-visible { outline: 2px solid var(--accent); outline-offset: 4px; border-radius: 2px; }
+    header { padding-bottom: 36px; border-bottom: 1px solid var(--border); }
+    .avatar { display: block; width: 84px; height: 84px; margin-bottom: 20px; border: 2px solid var(--border); border-radius: 50%; object-fit: cover; }
+    section { padding: 34px 0; border-bottom: 1px solid var(--border); }
+    .post { margin-bottom: 28px; }
+    .post:last-child { margin-bottom: 0; }
+    .muted { color: var(--subtle); font-size: 0.95rem; }
+    footer { padding-top: 28px; color: var(--subtle); font-size: 0.95rem; }
+    @media (max-width: 600px) {
+      main { padding: 45px 22px; }
+      h1 { font-size: 2rem; }
+      section { padding: 28px 0; }
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <!-- INTRO: Update your welcome message here. -->
+    <header>
+      <img class="avatar" src="profile.png" alt="memz098 profile picture" width="84" height="84">
+      <h1>hey, i'm memz098 👋</h1>
+      <p>Welcome to my little corner of the internet.</p>
+      <p>I'm into tech, building things, and figuring stuff out as I go. This is where I share what I'm working on and anything I find interesting.</p>
+    </header>
+
+    <!-- ABOUT: Update your personal introduction here. -->
+    <section id="about">
+      <h2>a bit about me</h2>
+      <p>I like messing with code and self-hosted projects. Sometimes things work on the first try. Most of the time, they don't. That's part of the fun.</p>
+      <p>When I'm not at my computer, I enjoy getting out on the dirt bike. It's a good way to get outside, have some fun, and take a break from screens.</p>
+      <p>I'm still learning, trying new ideas, and building things I actually want to use.</p>
+    </section>
+
+    <!-- PROJECTS: Copy an article block to add a project. -->
+    <section id="projects">
+      <h2>what i'm working on</h2>
+      <article class="post">
+        <h3>Media Dashboard</h3>
+        <p>A dashboard I've been working on to make my media server easier for friends and family to use. It brings together Plex, Jellyfin, Overseerr, Wizarr, and RomM in one place, making it easy to see what's playing, access everything, and invite friends to the server.</p>
+        <p>It's still a work in progress, but I'm always adding new things and making it better.</p>
+      </article>
+      <p class="muted">More projects and updates coming when I have something worth sharing.</p>
+    </section>
+
+    <!-- BLOG: Copy an article block to add a post. -->
+    <section id="blog">
+      <h2>blog</h2>
+      <article class="post">
+        <h3>starting this blog</h3>
+        <p>I wanted a simple place to share projects, notes, and random tech stuff. Nothing fancy. Just somewhere to document things as I make them.</p>
+      </article>
+      <article class="post">
+        <h3>why i like self-hosting</h3>
+        <p>I enjoy having control over the tools I use, learning how everything fits together, and fixing things when they inevitably break.</p>
+      </article>
+    </section>
+
+    <!-- CONTACT: Add an email or social links here when you're ready. -->
+    <section id="contact">
+      <h2>say hi</h2>
+      <p>Want to chat or check out what I'm making? Feel free to reach out.</p>
+      <p><a href="https://github.com/Memz098" target="_blank" rel="noopener noreferrer">github.com/Memz098</a></p>
+    </section>
+    <footer>made by memz098 · thanks for stopping by :)</footer>
+  </main>
+</body>
+</html>
